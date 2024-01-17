@@ -1,7 +1,7 @@
 import PersonalPage from'./PersonalPage';
 
 function App() {
-  return (PersonalPage());
+  return (<PersonalPage />);
 }
 
 export default App

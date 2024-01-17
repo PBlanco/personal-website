@@ -23,7 +23,7 @@ function PersonalPage() {
             Senior Product Manager at <Link href="https://www.actioniq.com" isExternal color="blue.500">ActionIQ</Link>
           </Text>
           <Text>
-            I'm a Senior Product Manager at ActionIQ with experience in Solutions Engineering,
+            I&apos;m a Senior Product Manager at ActionIQ with experience in Solutions Engineering,
             Full Stack Software Engineering, and Web design. I graduated
             from Cornell University in 2015 with a B.A. in Computer Science.
           </Text>
