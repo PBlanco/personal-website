@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import PersonalPage from'./pages/PersonalPage';
 import './index.css'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 
@@ -18,7 +18,7 @@ const theme = extendTheme({ colors })
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <App />
+      <PersonalPage/>
     </ChakraProvider>
   </React.StrictMode>,
 )
