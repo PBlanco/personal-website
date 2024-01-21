@@ -1,24 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import PersonalPage from'./pages/PersonalPage';
-import './index.css'
-import { ChakraProvider, extendTheme } from '@chakra-ui/react'
-
-const colors = {
-  brand: {
-    900: '#1a365d',
-    800: '#153e75',
-    700: '#2a69ac',
-  },
-}
-
-const theme = extendTheme({ colors })
-
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import PersonalPage from './pages/PersonalPage';
+import './index.css';
+import { ChakraProvider } from '@chakra-ui/react';
+import theme from './theme';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <PersonalPage/>
+      <PersonalPage />
     </ChakraProvider>
   </React.StrictMode>,
-)
+);
